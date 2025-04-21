@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | AI4Wheels</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-dark text-light">
+
+  <!-- Load Navbar -->
+  <div id="navbar-container"></div>
+
+  <section class="py-5">
+    <div class="container">
+      <h1 class="fw-bold text-center mb-4">Get in Touch</h1>
+      <div class="row g-5">
+        <!-- Contact Form -->
+        <div class="col-md-6">
+          <form action="https://formspree.io/f/myzwgkgn" method="POST">
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" name="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" name="_replyto" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Resume + LinkedIn -->
+        <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+          <a href="assets/Arun_Holehonnur_Resume.pdf" class="btn btn-outline-light mb-3" download>
+            📄 Download Resume
+          </a>
+          <a href="https://www.linkedin.com/in/arunholehonnur/" class="btn btn-outline-info" target="_blank">
+            💼 Visit LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center py-4 bg-black text-light">
+    <p class="mb-0">&copy; 2025 AI4Wheels.com | Built by Arun Holehonnur Ananth</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="load-navbar.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
