@@ -7,7 +7,7 @@
   box-shadow: 0 0 15px rgba(255, 193, 7, 0.6); /* subtle glow using Bootstrap's yellow */
 }
 .blog-hero {
-  max-width: 300px;
+  max-width: 400px;
   width: 60%;
   margin: 0 auto;
   display: block;
